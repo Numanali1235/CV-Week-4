@@ -6,7 +6,7 @@ Detects people in a video, tracks them across frames, and draws each person's ID
 
 ```bash
 pip install -r requirements.txt
-python track.py --source my_video.mp4
+python track.py --source input.mp4
 ```
 
 Outputs go to `output/` (`tracked.mp4`, `tracks.csv`, `summary.txt`, `switch_candidates/`).
