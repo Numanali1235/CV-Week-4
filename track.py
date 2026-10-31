@@ -1,16 +1,3 @@
-"""
-Person detection + tracking (YOLOv8 + ByteTrack).
-
-Usage:
-    python track.py --source my_video.mp4
-    python track.py --source my_video.mp4 --tracker botsort.yaml
-
-Outputs (in ./output):
-    tracked.mp4            video with boxes + ID labels
-    tracks.csv             frame, id, x1, y1, x2, y2
-    summary.txt            counts + ID-switch candidates
-    switch_candidates/     before/after images for each candidate switch
-"""
 import argparse
 import csv
 from pathlib import Path
