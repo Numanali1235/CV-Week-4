@@ -37,7 +37,7 @@ Outputs go to `output/` (`tracked.mp4`, `tracks.csv`, `summary.txt`, `switch_can
 - **What happened:** Person with ID <A> became ID <B>.
 - **Why I think it happened:** <e.g. they were occluded by ___ for ~N frames, the track expired, and a new ID was created when they reappeared / two people crossed paths with similar clothing / detection confidence dropped when they turned away>
 
-Screenshot (before | after): `output/switch_candidates/<file>.jpg`
+Screenshot (before | after): `https://github.com/Numanali1235/CV-Week-4/blob/main/frame1314_ID1962_to_ID2159.jpg`
 
 ![ID switch](output/switch_candidates/<file>.jpg)
 
